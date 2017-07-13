@@ -1,6 +1,7 @@
 import webbrowser
 class Movie():
-    #function containes all the requiered information about the movie
+    """ class contains all the required information about the movies"""
+    #function containes all the required information about the movie
     def __init__(self,movie_title,movie_storyline,poster_image,trailer_youtube):
         self.title = movie_title #inputs movies title
         self.storyline = movie_storyline #inputs movies storyline
